@@ -42,7 +42,7 @@ body{
     font-weight: 500;
 }
 .left-content{
-    padding: 6rem 8vw;
+    padding: 5rem 8vw;
 }
 .left-header-link{
     color: white;
@@ -100,7 +100,7 @@ h3{
     margin-top: 5rem;
 }
 .right-content{
-    padding: 4.5rem 8vw;
+    padding: 3.5rem 10vw;
 }
 .right-header h1{
     font-weight: 500;
@@ -128,4 +128,80 @@ h3{
    
     /* border-color: gray; */
     /* border: none; */
+}
+.calculating{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.preselected-amount-btns{
+    display: flex;
+
+}
+.btn-amount{
+    background-color: white;
+    color: gray;
+    font-size: x-small;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    border-width: 0.01rem;
+    height: 2rem;
+}
+.select-header{
+    font-size: small;
+    color: gray;
+}
+.form-select{
+    margin-top: 0.5rem;
+    height: 3rem;
+    padding: 0.5rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    border-color: gray;
+}
+.invest-header{
+    color: gray;
+    margin-top: 3.5rem;
+    font-size: small;
+}
+.amount{
+    margin-top: 0.5rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    /* border-color: ; */
+    border-width: 0.01rem;
+}
+.preselected-amount-btns{
+    display: flex;
+    margin-top: 1rem;
+    /* justify-content: space-between; */
+}
+.investment-date{
+    font-size: small;
+    color: gray;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+.btn-date{
+    background-color: white;
+    color: gray;
+    font-size: x-small;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    border-width: 0.01rem;
+    /* height: 2rem; */
+    /* padding: 1rem; */
+}
+.make-me-cry{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4rem;
+    padding: 0.5rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(0, 51, 128);
+    color: white;
+    cursor: pointer;
 }
