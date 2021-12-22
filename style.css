@@ -147,6 +147,7 @@ h3{
     margin-right: 1rem;
     border-width: 0.01rem;
     height: 2rem;
+    cursor: pointer;
 }
 .select-header{
     font-size: small;
@@ -172,6 +173,7 @@ h3{
     border-radius: 1rem;
     /* border-color: ; */
     border-width: 0.01rem;
+    
 }
 .preselected-amount-btns{
     display: flex;
@@ -192,6 +194,7 @@ h3{
     border-radius: 0.5rem;
     margin-right: 1rem;
     border-width: 0.01rem;
+    cursor: pointer;
     /* height: 2rem; */
     /* padding: 1rem; */
 }
