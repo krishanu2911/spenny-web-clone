@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+::-webkit-scrollbar {
+    display: none;
+  }
 body{
     margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    /* overflow:hidden; */
 }
 .main-body{
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 .page-left{
     background-color: rgb(0, 51, 128);
     width: 50vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 .page-right{
     
@@ -20,15 +26,17 @@ body{
 }
 .left-para{
     font-size: 1rem;
+    /* max-width: 250rem; */
     /* text-align: center; */
     padding: 1rem;
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
 .left-header{
     display: flex;
+    /* min-width: 30rem; */
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -53,4 +61,71 @@ body{
 h6{
     font-size: 0.8rem;
     margin: 0;
+}
+.left-aboveBtn-text{
+    font-family: 'Poppins', sans-serif;
+    
+    /* padding: 1rem; */
+    font-weight: 100;
+    color: white;
+}
+h3{
+    margin: 0;
+}
+.left-btn-part{
+    margin-top: 8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.left-btn{
+    margin-top:  1rem;
+    /* position: relative; */
+    /* left: 1rem; */
+    /* margin: 0; */
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.left-btn-div{
+    padding: 0;
+}
+.left-footer{
+    margin-top: 2rem;
+    color: white;
+    padding: 1rem;
+    font-size: small;
+    margin-top: 5rem;
+}
+.right-content{
+    padding: 4.5rem 8vw;
+}
+.right-header h1{
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.right-text{
+    color: gray;
+    margin: 0 ;
+    margin-bottom: 2rem;
+}
+.right-content hr{
+    height: 1px;
+        background-color: #ccc;
+        border: none;
+    /* width: 1rem; */
+    /* border: none; */
+    /* border-width:10; */
+    /* color:#9ca3af; */
+    /* border: 1px solid red;
+    color: red; */
+    /* background-color: #9ca3af; */
+
+    /* border: 0; */
+    /* opacity: .25; */
+   
+    /* border-color: gray; */
+    /* border: none; */
 }
